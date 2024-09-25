@@ -51,7 +51,7 @@ const variables = {
   windows: {
     configFilePath: 'src-tauri/tauri.windows.conf.json',
     iconPath: `src-tauri/png/${process.env.NAME}_32.ico`,
-    defaultPath: 'src-tauri/png/icon_32.ico',
+    defaultIconPath: 'src-tauri/png/icon_32.ico',
     hdIconPath: `src-tauri/png/${process.env.NAME}_256.ico`,
     hdDefaultPath: 'src-tauri/png/icon_256.ico',
     icon: [`png/${process.env.NAME}_256.ico`, `png/${process.env.NAME}_32.ico`],
