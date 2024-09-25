@@ -5,7 +5,7 @@
  * that you wish to attach to the application.
  */
 
-document.addEventListener('DOMContentLoaded', () => {
+
   setInterval(() => {
     console.log('start');
 
@@ -53,5 +53,4 @@ document.addEventListener('DOMContentLoaded', () => {
       element22.style.maxHeight = calculatedHeight;
     }
   }, 200);
-});
 
