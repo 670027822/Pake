@@ -86,7 +86,7 @@ switch (os.platform()) {
     break;
 }
 
-updateIconFile(platformVariables.iconPath, platformVariables.defaultPath);
+updateIconFile(platformVariables.iconPath, platformVariables.defaultIconPath);
 
 updatePlatformConfig(platformConfig, platformVariables);
 
