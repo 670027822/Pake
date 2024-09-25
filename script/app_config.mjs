@@ -33,7 +33,7 @@ const variables = {
     configFilePath: 'src-tauri/tauri.linux.conf.json',
     iconPath: `src-tauri/png/${process.env.NAME}_512.png`,
     productName: `com-pake-${process.env.NAME}`,
-    defaultIconPath: 'src-tauri/png/icon_512.png',
+    defaultPath: 'src-tauri/png/icon_512.png',
     icon: [`png/${process.env.NAME}_512.png`],
     desktopEntry,
     desktopEntryPath: `src-tauri/assets/com-pake-${process.env.NAME}.desktop`,
@@ -86,7 +86,7 @@ switch (os.platform()) {
     break;
 }
 
-updateIconFile(platformVariables.iconPath, platformVariables.defaultIconPath);
+updateIconFile(platformVariables.iconPath, platformVariables.defaultPath);
 
 updatePlatformConfig(platformConfig, platformVariables);
 
